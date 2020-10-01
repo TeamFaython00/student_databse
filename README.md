@@ -1,3 +1,6 @@
 # Student Database
 
-This prject is a written in c++ and can we use as data base for student
+This is a project which is completely made on C++.
+
+This project have Password protected option.
+We can store details of students and can check it later
