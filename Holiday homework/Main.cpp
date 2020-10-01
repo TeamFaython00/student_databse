@@ -12,8 +12,8 @@ using namespace std;
 
 void reportcard()
 {
-	countdown();
-	allfunc();
+	countdown();            // function for countdown
+	allfunc();              // all the features is stored here
 		system("cls");
 	cout<<"\t\t\tStudent Detail Panel\n\n";
 	Sleep(500);
@@ -41,7 +41,7 @@ void reportcard()
 }
 void select()
 {
-	system("cls");
+	system("cls");                     // to clear screen
 	cout<<"Following function available:";
 	cout<<"\n1)Subject Percentage\n2)Subject GPA\n3)CGPA\n4)Report Card";
 	cout<<"\nEnter your choice:";
@@ -76,7 +76,7 @@ int main()
 	do{
 		select();
 		system("cls");
-		cout<<"Do you want to go back to Function Chart\n1)Yes\n2)No\n";
+		cout<<"Do you want to go back to Function Chart\n1)Yes\n2)No\n";                                  
 		cin>>opti;
 	}while(opti==1);
 	system("cls");
